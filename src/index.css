@@ -19,6 +19,12 @@ code {
   text-shadow: 1px 1px 1px red;
 }
 
+.scoreBoard {
+  font-weight: 800;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 22px;
+}
+
 .jumbotron {
   padding-top: 4rem;
   padding-bottom: 4rem;
@@ -53,4 +59,18 @@ code {
 
 .jumbotron .container {
   max-width: 40rem;
+}
+
+.imgWrapper {
+  padding: 10px; 
+}
+
+.imgWrapper img {
+  width:100%;
+  border-radius: 20px;
+  border: 5px darkgoldenrod solid;
+}
+
+.imgWrapper img:hover {
+  box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.2);
 }

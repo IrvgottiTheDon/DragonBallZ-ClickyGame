@@ -7,152 +7,103 @@ function App() {
     <div className="App">
       <NavBar />
       <main role="main">
-        <section className="jumbotron text-center">
+        <section className="jumbotron" style={{backgroundImage: 'url(' + process.env.PUBLIC_URL + '/img/header.jpg)', backgroundSize: 'cover'}}>
           <div className="container">
-            <h1>Album example</h1>
-            <p className="lead text-muted">Something short and leading about the collection below—its contents, the creator, etc. Make it short and sweet, but not too short so folks don’t simply skip over it entirely.</p>
-            <p>
-              <a href="#" className="btn btn-primary my-2">Main call to action</a>
-              <a href="#" className="btn btn-secondary my-2">Secondary action</a>
-            </p>
+            <h1>Dragonball Z Clicky Game!</h1>
+            <p className="lead">Click on a an image to earn points, but don't click on any more than once!</p>
           </div>
         </section>
-        <div className="album py-5 bg-light">
+        <div className="gameArea py-5 bg-light">
           <div className="container">
+
             <div className="row">
-              <div className="col-md-4">
-                <div className="card mb-4 shadow-sm">
-                  <svg className="bd-placeholder-img card-img-top" width="100%" height={225} xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                  <div className="card-body">
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div className="d-flex justify-content-between align-items-center">
-                      <div className="btn-group">
-                        <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                      </div>
-                      <small className="text-muted">9 mins</small>
-                    </div>
-                  </div>
+              <div className="col-md-3">
+                <div className="imgWrapper">
+                  <img src={process.env.PUBLIC_URL + '/img/Cb17.png'} alt="Android 17" />
                 </div>
               </div>
-              <div className="col-md-4">
-                <div className="card mb-4 shadow-sm">
-                  <svg className="bd-placeholder-img card-img-top" width="100%" height={225} xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                  <div className="card-body">
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div className="d-flex justify-content-between align-items-center">
-                      <div className="btn-group">
-                        <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                      </div>
-                      <small className="text-muted">9 mins</small>
-                    </div>
-                  </div>
+              <div className="col-md-3">
+                <div className="imgWrapper">
+                  <img src={process.env.PUBLIC_URL + '/img/Cb18.png'} alt="Android 18" />
                 </div>
               </div>
-              <div className="col-md-4">
-                <div className="card mb-4 shadow-sm">
-                  <svg className="bd-placeholder-img card-img-top" width="100%" height={225} xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                  <div className="card-body">
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div className="d-flex justify-content-between align-items-center">
-                      <div className="btn-group">
-                        <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                      </div>
-                      <small className="text-muted">9 mins</small>
-                    </div>
-                  </div>
+              <div className="col-md-3">
+                <div className="imgWrapper">
+                  <img src={process.env.PUBLIC_URL + '/img/CbBroly.png'} alt="Broly" />
                 </div>
               </div>
-              <div className="col-md-4">
-                <div className="card mb-4 shadow-sm">
-                  <svg className="bd-placeholder-img card-img-top" width="100%" height={225} xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                  <div className="card-body">
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div className="d-flex justify-content-between align-items-center">
-                      <div className="btn-group">
-                        <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                      </div>
-                      <small className="text-muted">9 mins</small>
-                    </div>
-                  </div>
+              <div className="col-md-3">
+                <div className="imgWrapper">
+                  <img src={process.env.PUBLIC_URL + '/img/Cbbulma.png'} alt="Bulma" />
                 </div>
               </div>
-              <div className="col-md-4">
-                <div className="card mb-4 shadow-sm">
-                  <svg className="bd-placeholder-img card-img-top" width="100%" height={225} xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                  <div className="card-body">
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div className="d-flex justify-content-between align-items-center">
-                      <div className="btn-group">
-                        <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                      </div>
-                      <small className="text-muted">9 mins</small>
-                    </div>
-                  </div>
+            </div>
+
+            <div className="row">
+              <div className="col-md-3">
+                <div className="imgWrapper">
+                  <img src={process.env.PUBLIC_URL + '/img/Cbbuu.png'} alt="Buu" />
                 </div>
               </div>
-              <div className="col-md-4">
-                <div className="card mb-4 shadow-sm">
-                  <svg className="bd-placeholder-img card-img-top" width="100%" height={225} xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                  <div className="card-body">
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div className="d-flex justify-content-between align-items-center">
-                      <div className="btn-group">
-                        <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                      </div>
-                      <small className="text-muted">9 mins</small>
-                    </div>
-                  </div>
+              <div className="col-md-3">
+                <div className="imgWrapper">
+                  <img src={process.env.PUBLIC_URL + '/img/Cbcell.png'} alt="Cell" />
                 </div>
               </div>
-              <div className="col-md-4">
-                <div className="card mb-4 shadow-sm">
-                  <svg className="bd-placeholder-img card-img-top" width="100%" height={225} xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                  <div className="card-body">
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div className="d-flex justify-content-between align-items-center">
-                      <div className="btn-group">
-                        <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                      </div>
-                      <small className="text-muted">9 mins</small>
-                    </div>
-                  </div>
+              <div className="col-md-3">
+                <div className="imgWrapper">
+                  <img src={process.env.PUBLIC_URL + '/img/Cbfrieza.png'} alt="Frieza" />
                 </div>
               </div>
-              <div className="col-md-4">
-                <div className="card mb-4 shadow-sm">
-                  <svg className="bd-placeholder-img card-img-top" width="100%" height={225} xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                  <div className="card-body">
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div className="d-flex justify-content-between align-items-center">
-                      <div className="btn-group">
-                        <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                      </div>
-                      <small className="text-muted">9 mins</small>
-                    </div>
-                  </div>
+              <div className="col-md-3">
+                <div className="imgWrapper">
+                  <img src={process.env.PUBLIC_URL + '/img/Cbfuturetrunks.png'} alt="Future Trunks" />
                 </div>
               </div>
-              <div className="col-md-4">
-                <div className="card mb-4 shadow-sm">
-                  <svg className="bd-placeholder-img card-img-top" width="100%" height={225} xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMid slice" focusable="false" role="img" aria-label="Placeholder: Thumbnail"><title>Placeholder</title><rect width="100%" height="100%" fill="#55595c" /><text x="50%" y="50%" fill="#eceeef" dy=".3em">Thumbnail</text></svg>
-                  <div className="card-body">
-                    <p className="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
-                    <div className="d-flex justify-content-between align-items-center">
-                      <div className="btn-group">
-                        <button type="button" className="btn btn-sm btn-outline-secondary">View</button>
-                        <button type="button" className="btn btn-sm btn-outline-secondary">Edit</button>
-                      </div>
-                      <small className="text-muted">9 mins</small>
-                    </div>
-                  </div>
+            </div>
+
+            <div className="row">
+              <div className="col-md-3">
+                <div className="imgWrapper">
+                  <img src={process.env.PUBLIC_URL + '/img/Cbgohan.png'} alt="Gohan" />
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="imgWrapper">
+                  <img src={process.env.PUBLIC_URL + '/img/Cbgoku.png'} alt="Goku" />
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="imgWrapper">
+                  <img src={process.env.PUBLIC_URL + '/img/Cbgoten.png'} alt="Goten" />
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="imgWrapper">
+                  <img src={process.env.PUBLIC_URL + '/img/Cbvegeta.png'} alt="Vegeta" />
+                </div>
+              </div>
+            </div>
+
+            <div className="row">
+              <div className="col-md-3">
+                <div className="imgWrapper">
+                  <img src={process.env.PUBLIC_URL + '/img/Cbkrillin.png'} alt="Krillin" />
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="imgWrapper">
+                  <img src={process.env.PUBLIC_URL + '/img/Cbpiccolo.png'} alt="Piccolo" />
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="imgWrapper">
+                  <img src={process.env.PUBLIC_URL + '/img/Cbtien.png'} alt="Tien" />
+                </div>
+              </div>
+              <div className="col-md-3">
+                <div className="imgWrapper">
+                  <img src={process.env.PUBLIC_URL + '/img/Cbyamcha.png'} alt="Yamcha" />
                 </div>
               </div>
             </div>
