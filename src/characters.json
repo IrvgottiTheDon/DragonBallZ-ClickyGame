@@ -1,0 +1,83 @@
+[
+    {
+        "id": 1,
+        "name": "Android 17",
+        "image": "../img/Cb17.png"
+    },
+    {
+        "id": 2,
+        "name": "Android 18",
+        "image": "../img/Cb18.png"
+    },
+    {
+        "id": 3,
+        "name": "Broly",
+        "image": "../img/CbBroly.png"
+    },
+    {
+        "id": 4,
+        "name": "Bulma",
+        "image": "../img/Cbbulma.png"
+    },
+    {
+        "id": 5,
+        "name": "Buu",
+        "image": "../img/Cbbuu.png"
+    },
+    {
+        "id": 6,
+        "name": "Cell",
+        "image": "../img/Cbcell.png"
+    },
+    {
+        "id": 7,
+        "name": "Frieza",
+        "image": "../img/Cbfrieza.png"
+    },
+    {
+        "id": 8,
+        "name": "Future Trunks",
+        "image": "../img/Cbfuturetrunks.png"
+    },
+    {
+        "id": 9,
+        "name": "Gohan",
+        "image": "../img/Cbgohan.png"
+    },
+    {
+        "id": 10,
+        "name": "Goku",
+        "image": "../img/Cbgoku.png"
+    },
+    {
+        "id": 11,
+        "name": "Goten",
+        "image": "../img/Cbgoten.png"
+    },
+    {
+        "id": 12,
+        "name": "Vegeta",
+        "image": "../img/Cbvegeta.png"
+    },
+    {
+        "id": 13,
+        "name": "Krillin",
+        "image": "../img/Cbkrillin.png"
+    },
+    {
+        "id": 14,
+        "name": "Piccolo",
+        "image": "../img/Cbpiccolo.png"
+    },
+    {
+        "id": 15,
+        "name": "Tien",
+        "image": "../img/Cbtien.png"
+    },
+    {
+        "id": 16,
+        "name": "Yamcha",
+        "image": "../img/Cbyamcha.png"
+    }
+
+]

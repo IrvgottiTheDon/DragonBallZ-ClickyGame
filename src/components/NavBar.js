@@ -9,13 +9,13 @@ class NavBar extends React.Component {
                         <a href={process.env.PUBLIC_URL} className="navbar-brand d-flex align-items-center">
                             <strong>DBZ Clicky Game!</strong>
                         </a>
-                        <div className="message blinking">game message</div>
+                        <div className="message blinking">{this.props.gameMessage}</div>
                         <div className="scoreBoard">
                             <div>
-                                <span>Current Score: </span><span id="currentScore">0</span>
+                                <span>Current Score: </span><span id="currentScore">{this.props.currentScore}</span>
                             </div>
                             <div>
-                                <span>Top Score: </span><span id="topScore">0</span>
+                                <span>Top Score: </span><span id="topScore">{this.props.topScore}</span>
                             </div>
                         </div>
                     </div>
