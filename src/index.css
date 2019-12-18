@@ -25,6 +25,39 @@ code {
   font-size: 22px;
 }
 
+.correct {
+  color: green !important;
+  text-shadow: 1px 1px 1px black;
+}
+
+.incorrect {
+  color: red !important;
+  text-shadow: 1px 1px 1px black;
+}
+
+.message {
+  font-weight: 200;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 22px;
+  font-style: italic;
+  text-shadow: 1px 1px 1px red;
+}
+
+.blinking{
+  animation:blinkingText 1.2s infinite;
+}
+@keyframes blinkingText{
+  0%{     color: #000;    }
+  49%{    color: transparent; }
+  50%{    color: transparent; }
+  99%{    color:transparent;  }
+  100%{   color: #000;    }
+}
+
+.gameArea {
+  width: 800px;
+}
+
 .jumbotron {
   padding-top: 4rem;
   padding-bottom: 4rem;
