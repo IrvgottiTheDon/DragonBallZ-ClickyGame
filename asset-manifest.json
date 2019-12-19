@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/dragonballz-clickygame/static/css/main.07056ff4.chunk.css",
+    "main.js": "/dragonballz-clickygame/static/js/main.42d49228.chunk.js",
+    "main.js.map": "/dragonballz-clickygame/static/js/main.42d49228.chunk.js.map",
+    "runtime-main.js": "/dragonballz-clickygame/static/js/runtime-main.9b554b51.js",
+    "runtime-main.js.map": "/dragonballz-clickygame/static/js/runtime-main.9b554b51.js.map",
+    "static/js/2.6f52f5fb.chunk.js": "/dragonballz-clickygame/static/js/2.6f52f5fb.chunk.js",
+    "static/js/2.6f52f5fb.chunk.js.map": "/dragonballz-clickygame/static/js/2.6f52f5fb.chunk.js.map",
+    "index.html": "/dragonballz-clickygame/index.html",
+    "precache-manifest.5d082839655f44c470420fdaf3575940.js": "/dragonballz-clickygame/precache-manifest.5d082839655f44c470420fdaf3575940.js",
+    "service-worker.js": "/dragonballz-clickygame/service-worker.js",
+    "static/css/main.07056ff4.chunk.css.map": "/dragonballz-clickygame/static/css/main.07056ff4.chunk.css.map",
+    "static/js/2.6f52f5fb.chunk.js.LICENSE": "/dragonballz-clickygame/static/js/2.6f52f5fb.chunk.js.LICENSE"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.9b554b51.js",
+    "static/js/2.6f52f5fb.chunk.js",
+    "static/css/main.07056ff4.chunk.css",
+    "static/js/main.42d49228.chunk.js"
+  ]
+}
