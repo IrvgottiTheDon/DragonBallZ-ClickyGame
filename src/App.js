@@ -25,7 +25,7 @@ class App extends Component {
 
   // callback function to shuffle the characters
   shuffleCharacters = () => {
-    this.setState(this.state.characters = this.shuffleArray(this.state.characters))
+    this.setState(this.characters = this.shuffleArray(this.state.characters))
   }
 
   // callback function to assist shuffling character array
@@ -47,12 +47,12 @@ class App extends Component {
       newState.gameMessage = `YOU ALREADY PICKED "${name.toUpperCase()}"!`
       newState.selectedTiles = []
       // reset the game with new state
-      this.setState(this.state = newState)
+      this.setState(newState)
     } 
     else {
       newState.selectedTiles.push(name)
       newState.gameMessage = `GOOD CHOICE!`
-      this.setState(this.state = newState)
+      this.setState(newState)
     }
     callback(newState, this.alertWinner)
   }
@@ -61,7 +61,7 @@ class App extends Component {
   updateScore = (newState, callback) => {
     if (newState.selectedTiles.length > newState.topScore) {
       newState.topScore++
-      this.setState(this.state = newState)
+      this.setState(newState)
     }
     callback(newState)
   }
@@ -71,7 +71,7 @@ class App extends Component {
     if (newState.selectedTiles.length === 16) {
       newState.gameMessage = "CHAMPION!";
       newState.selectedTiles = [];
-      this.setState(this.state = newState)
+      this.setState(newState)
     }
   }
 
